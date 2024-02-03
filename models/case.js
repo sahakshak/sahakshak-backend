@@ -59,7 +59,6 @@ const caseSchema = new mongoose.Schema({
   },
   imageURL: {
     type: String,
-    required: true,
   },
 });
 
