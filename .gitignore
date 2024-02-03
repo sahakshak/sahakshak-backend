@@ -1,0 +1,37 @@
+# Ignore compiled binaries
+*.exe
+*.out
+*.o
+
+# Ignore temporary files
+*.swp
+*~
+
+# Ignore environment-specific files
+.env
+env/
+
+# Ignore dependencies
+/node_modules
+/vendor
+/.venv
+
+# Ignore log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore compiled Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore editor backup files
+*~
