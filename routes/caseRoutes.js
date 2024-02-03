@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
-const caseController = require("../controllers/caseContoller");
+const caseController = require("../controllers/caseController");
 
 // Setting up multer as a middleware to grab photo uploads
 const upload = multer({ storage: multer.memoryStorage() });
